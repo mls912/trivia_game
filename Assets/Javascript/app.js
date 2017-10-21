@@ -55,7 +55,7 @@ var game = {
             $("#subwrapper").append("<input type='radio' name='question-" + i + "' value='"+questions[i].answers[j] + "'>" + questions[i].answers[j])
         }
       }   
-      $('#subwrapper').append('<br><button id="end">Done</button>')  
+      $('#subwrapper').append('<br><br><button id="end">Done</button>')  
 },
     done:  function(){
       $.each($("input[name='question-0']:checked"), function() {
