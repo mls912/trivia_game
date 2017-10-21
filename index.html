@@ -4,18 +4,26 @@
 	<title>Trivia Game</title>
 
 <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <body>
-<h1>Movie Trivia Game</h1>
+<div id="wrapper"> 
+	<h1 id="title">Movie Trivia Game</h1>
 
-<div>
+	<div id="subwrapper">
+		<button id="start">Start Game</button>
+	</div>
+
+</div>
+
+<!-- 
 	<h2>Time Remaining:<label id="timeLeft"></label></h2>
 </div>
 
 <div>
 	<h3>Who plays Lloyd Christmas in Dumb and Dumber?</h3>
-	<!-- <h4>Jeff Daniels, Jim Carey, Matt Damon, Norm McDonald</h4> -->
+	<h4>Jeff Daniels, Jim Carey, Matt Damon, Norm McDonald</h4>
 	<form id="buttons">
 		  <input type="radio" name="dumb" value="jeff"><span>Jeff Daniels</span>
 		  <input type="radio" name="dumb" value="jim"><span>Jim Carey</span>
@@ -26,7 +34,7 @@
 
 <div>
 	<h3>Which Indiana Jones movie featured Sean Connery?</h3>
-	<!-- <h4>Raiders, Crystal Skull, Temple of Doom, Last Crusade</h4> -->
+	<h4>Raiders, Crystal Skull, Temple of Doom, Last Crusade</h4>
 		<form id="buttons">
 		  <input type="radio" name="jones" value="raiders"><span>Raiders</span>
 		  <input type="radio" name="jones" value="skull"><span>Crystal Skull</span>
@@ -43,7 +51,7 @@
 		  <input type="radio" name="bond" value="24"><span>24</span>
 		  <input type="radio" name="bond" value="25"><span>25</span>
 	</form>
-<!-- 	<h4>22, 23, 24, 25</h4> -->
+	<h4>22, 23, 24, 25</h4>
 </div>
 
 <div>
@@ -54,14 +62,14 @@
 		  <input type="radio" name="wars" value="nobody"><span>Nobody Knows</span>
 		  <input type="radio" name="wars" value="lucas"><span>George Lucas</span>
 	</form>
-<!-- 	<h4>Han Solo, Greedo, Nobody knows, George Lucas</h4> -->
-</div>
+	<h4>Han Solo, Greedo, Nobody knows, George Lucas</h4>
+</div> -->
 
 
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <script src="Assets/Javascript/app.js"></script>
 </body>
 </html>
